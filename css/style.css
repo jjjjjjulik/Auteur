@@ -128,7 +128,8 @@ h6 {
   top: 0;
   left: 0;
   z-index: 100;
-  background-color: #f4f3ec
+  background-color: #f4f3ec;
+  box-shadow: .0625rem .0625rem .625rem #acaaa3
 }
 .header::before {
   content: "";
@@ -305,7 +306,7 @@ h6 {
   line-height: 1.7333333333
 }
 .blockquote {
-  background: #f4f3ec url(../img/blockquote/background.jpg) no-repeat center center;
+  background: #f4f3ec url(../img/blockquote/background.webp) no-repeat center center;
   background-size: cover
 }
 .blockquote__container {
